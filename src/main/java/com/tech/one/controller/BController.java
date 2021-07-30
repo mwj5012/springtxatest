@@ -2,6 +2,8 @@ package com.tech.one.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,8 +19,8 @@ public class BController {
 //		Constant.template=this.template;
 //	}
 	
-//	@Autowired
-//	private SqlSession sqlSession;
+	@Autowired
+	private SqlSession sqlSession;
 	
 	
 	@RequestMapping("/list")
