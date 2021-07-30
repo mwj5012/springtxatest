@@ -53,7 +53,7 @@
 			<td colspan="5"> <a href="write_view">글작성</a> </td>
 		</tr>
 </table>
-<%-- TotCnt : ${totRowCnt }
+TotCnt : ${totRowCnt }
 <br />
 
 <form id="form1" name="form1" action="list" method="post">
@@ -101,6 +101,6 @@
 	<input type="text" name="sk" style="width: 150px;" maxlength="50" value="${searchKeyword }" />
 	<input name="btn_search" type="submit" value="검색" />
 	</div>
-</form> --%>
+</form>
 </body>
 </html>
